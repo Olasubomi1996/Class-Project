@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+
+
+<body
+    class="flex justify-center items-center bg-gradient-to-tr from-10% from-sky-400 via-40% via-purple-500 to-90% to-fuchsia-500 h-screen">
+
+    <div class="flex md:flex-row flex-col bg-white shadow-lg mx-6 rounded-lg max-w-full md:max-w-3xl overflow-hidden">
+
+
+        <div class="py-16 p-12">
+            <h2 class="font-bold font-cambria text-black text-center text-xl">Login</h2>
+
+            <div class="mb-4">
+                <label for="username" class="block mb-2 font-medium text-gray-600 text-sm">Username</label>
+                <div class="relative">
+                    <i class="top-3 left-3 absolute text-gray-400 fa-user fas"></i>
+                    <input id="username" type="text" placeholder="Enter your username"
+                        class="border-gray-300 py-3 pl-10 border-b w-full focus:outline-none focus:ring-2 focus:ring-sky-400 text-gray-600 placeholder-gray-400">
+
+                </div>
+            </div>
+
+            <!-- Password Input -->
+            <div class="mb-4">
+                <label for="password" class="block mb-2 font-medium text-gray-600 text-sm">Password</label>
+                <div class="relative">
+                    <i class="top-3 left-3 absolute text-gray-400 fa-lock fas"></i>
+                    <input id="password" type="password" placeholder="Enter your password"
+                        class="border-gray-300 py-3 pl-10 border-b w-full focus:outline-none focus:ring-2 focus:ring-sky-400 text-gray-600 placeholder-gray-400">
+
+                </div>
+            </div>
+
+            <!-- Forgot Password -->
+            <div class="flex justify-end mb-6">
+                <a href="#" class="text-sky-600 text-sm hover:underline">Forgot password?</a>
+            </div>
+
+            <!-- Login Button -->
+            <div>
+                <button
+                    class="bg-gradient-to-r hover:bg-gradient-to-l from-sky-400 via-purple-500 to-fuchsia-500 hover:opacity-90 py-3 rounded-3xl w-full font-medium text-lg text-white transition duration-300">
+                    LOGIN
+                </button>
+            </div>
+
+            <!-- Divider -->
+            <div class="flex items-center mt-6 mb-4">
+                <hr class="flex-grow border-gray-300">
+                <span class="mx-3 text-gray-500 text-sm">Or Sign In Using</span>
+                <hr class="flex-grow border-gray-300">
+            </div>
+
+            <!-- Social Media Icons -->
+            <div class="flex justify-center gap-6">
+                <a href="#" class="hover:opacity-80 text-blue-600 text-xl"><i class="fa-facebook fab"></i></a>
+                <a href="#" class="hover:opacity-80 text-sky-400 text-xl"><i class="fa-twitter fab"></i></a>
+                <a href="#" class="hover:opacity-80 text-red-600 text-xl"><i class="fa-google fab"></i></a>
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+
+</body>
+
+</html>
